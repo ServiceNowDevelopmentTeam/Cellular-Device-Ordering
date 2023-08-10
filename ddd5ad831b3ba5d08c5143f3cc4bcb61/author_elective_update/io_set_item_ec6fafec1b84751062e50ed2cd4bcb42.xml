@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>0</order>
+        <sc_cat_item display_value="Copy of Apple 12.9in iPad Pro 256GB">d46fabec1b84751062e50ed2cd4bcbbb</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-07-12 14:59:22</sys_created_on>
+        <sys_id>ec6fafec1b84751062e50ed2cd4bcb42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requestor Auto Fill Read Only Func.Copy of Apple 12.9in iPad Pro 256GB</sys_name>
+        <sys_package display_value="Cellular Device Ordering" source="ddd5ad831b3ba5d08c5143f3cc4bcb61">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
+        <sys_update_name>io_set_item_ec6fafec1b84751062e50ed2cd4bcb42</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-07-12 14:59:22</sys_updated_on>
+        <variable_set display_value="Requestor Auto Fill Read Only Func">36bf0bc01ba274108c5143f3cc4bcb8b</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>io_set_item_ec6fafec1b84751062e50ed2cd4bcb42</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>0</order><sc_cat_item display_value="Copy of Apple 12.9in iPad Pro 256GB">d46fabec1b84751062e50ed2cd4bcbbb</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2023-07-12 14:59:22</sys_created_on><sys_id>ec6fafec1b84751062e50ed2cd4bcb42</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Requestor Auto Fill Read Only Func.Copy of Apple 12.9in iPad Pro 256GB</sys_name><sys_package display_value="Cellular Device Ordering" source="ddd5ad831b3ba5d08c5143f3cc4bcb61">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_package><sys_policy/><sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope><sys_update_name>io_set_item_ec6fafec1b84751062e50ed2cd4bcb42</sys_update_name><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2023-07-12 14:59:22</sys_updated_on><variable_set display_value="Requestor Auto Fill Read Only Func">36bf0bc01ba274108c5143f3cc4bcb8b</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>1277872064</payload_hash>
+        <record_name>d46fabec1b84751062e50ed2cd4bcbbb</record_name>
+        <reverted_from/>
+        <source>9871d1271b4fe15062e50ed2cd4bcb8c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-07-12 14:59:22</sys_created_on>
+        <sys_id>2c6fafec1b84751062e50ed2cd4bcb46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1894a9d2e650000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-07-12 14:59:22</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>246fafec6c8475103975c2f806cdec46</update_guid>
+        <update_guid_history>246fafec6c8475103975c2f806cdec46:1277872064</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Apple iPad Air 5th Gen 256GB">26e8fba01b08751062e50ed2cd4bcb05</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-07-12 15:41:00</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>8ace671b37954fb0a93160d550228d44</sys_id>
+        <sys_metadata>ec6fafec1b84751062e50ed2cd4bcb42</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requestor Auto Fill Read Only Func.Copy of Apple 12.9in iPad Pro 256GB</sys_name>
+        <sys_package display_value="Cellular Device Ordering" source="ddd5ad831b3ba5d08c5143f3cc4bcb61">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
+        <sys_scope_delete display_value="">19419188852c444a8acdd9a965265dc4</sys_scope_delete>
+        <sys_update_name>io_set_item_ec6fafec1b84751062e50ed2cd4bcb42</sys_update_name>
+        <sys_update_version display_value="io_set_item_ec6fafec1b84751062e50ed2cd4bcb42">2c6fafec1b84751062e50ed2cd4bcb46</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-07-12 15:41:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

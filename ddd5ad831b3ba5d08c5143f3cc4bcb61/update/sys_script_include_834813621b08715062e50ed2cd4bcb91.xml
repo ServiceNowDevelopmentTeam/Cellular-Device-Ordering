@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>global.GetCellularGL</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>GetCellularGL</name>
+        <script><![CDATA[var GetCellularGL = Class.create();
+GetCellularGL.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	type: 'GetCellularGL',
+	getGl: function(company){
+		var gl;
+		var companyId = company || this.getParameter('company');
+		(function() {
+			//var gl; was defined here
+			var companyGr = new GlideRecord('core_company');
+			companyGr.get(companyId);
+			try {
+				var inputs = {};
+				inputs['company'] = companyGr;
+
+				var result = sn_fd.FlowAPI.getRunner().subflow('global.prof__get_cellular_gl__s').inForeground().withInputs(inputs).run();
+				var outputs = result.getOutputs();
+				gl = outputs['gl'];
+
+			} catch (ex) {
+				var message = ex.getMessage();
+				gs.error(message);
+			}
+
+		})();
+		return gl;
+	}
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-07-18 18:30:04</sys_created_on>
+        <sys_id>834813621b08715062e50ed2cd4bcb91</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>GetCellularGL</sys_name>
+        <sys_package display_value="Cellular Device Ordering" source="ddd5ad831b3ba5d08c5143f3cc4bcb61">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
+        <sys_update_name>sys_script_include_834813621b08715062e50ed2cd4bcb91</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-07-18 19:19:53</sys_updated_on>
+    </sys_script_include>
+</record_update>
