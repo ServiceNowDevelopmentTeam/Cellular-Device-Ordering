@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Apple iPad Air 5th Gen 256GB">d46fabec1b84751062e50ed2cd4bcbbb</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-07-12 14:59:21</sys_created_on>
+        <sys_id>506fabec1b84751062e50ed2cd4bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Copy of Apple 12.9in iPad Pro 256GB</sys_name>
+        <sys_package display_value="Cellular Device Ordering" source="ddd5ad831b3ba5d08c5143f3cc4bcb61">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_506fabec1b84751062e50ed2cd4bcbc4</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-07-12 14:59:21</sys_updated_on>
+    </sc_cat_item_catalog>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>sc_cat_item_catalog_506fabec1b84751062e50ed2cd4bcbc4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Apple iPad Air 5th Gen 256GB">d46fabec1b84751062e50ed2cd4bcbbb</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-07-12 14:59:21</sys_created_on>
+        <sys_id>506fabec1b84751062e50ed2cd4bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Copy of Apple 12.9in iPad Pro 256GB</sys_name>
+        <sys_package display_value="Cellular Device Ordering" source="ddd5ad831b3ba5d08c5143f3cc4bcb61">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_506fabec1b84751062e50ed2cd4bcbc4</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-07-12 14:59:21</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>]]></payload>
+        <payload_hash>1198444624</payload_hash>
+        <record_name>Service Catalog.Copy of Apple 12.9in iPad Pro 256GB</record_name>
+        <reverted_from/>
+        <source>6072a6cd1b405e10c16ddb9ebd4bcb67</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-08-14 15:02:42</sys_created_on>
+        <sys_id>2f72eacd1b405e10c16ddb9ebd4bcb83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1915169a02e0000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-08-14 15:02:42</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>6772eacd54405e10bbc2e0901494f783</update_guid>
+        <update_guid_history>6772eacd54405e10bbc2e0901494f783:0,f20c786dce7a71500c8b8463f0ae8c15:1697403604</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-10-02 21:42:19</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>1f0cc1de1d634db3bde8d91f62f81d99</sys_id>
+        <sys_metadata>506fabec1b84751062e50ed2cd4bcbc4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Copy of Apple 12.9in iPad Pro 256GB</sys_name>
+        <sys_package display_value="Cellular Device Ordering" source="ddd5ad831b3ba5d08c5143f3cc4bcb61">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
+        <sys_scope_delete display_value="">19419188852c444a8acdd9a965265dc4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_506fabec1b84751062e50ed2cd4bcbc4</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_506fabec1b84751062e50ed2cd4bcbc4">2f72eacd1b405e10c16ddb9ebd4bcb83</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-10-02 21:42:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

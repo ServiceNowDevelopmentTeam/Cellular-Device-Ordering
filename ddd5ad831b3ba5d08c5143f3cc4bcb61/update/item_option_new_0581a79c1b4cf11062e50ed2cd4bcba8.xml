@@ -17,13 +17,15 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
         <field/>
         <global>true</global>
         <help_tag>More information</help_tag>
         <help_text/>
-        <hidden>false</hidden>
+        <hidden>true</hidden>
         <include_none>true</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -77,14 +79,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-11 19:20:18</sys_created_on>
         <sys_id>0581a79c1b4cf11062e50ed2cd4bcba8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Mobile Company</sys_name>
         <sys_package display_value="Cellular Device Ordering" source="ddd5ad831b3ba5d08c5143f3cc4bcb61">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
         <sys_update_name>item_option_new_0581a79c1b4cf11062e50ed2cd4bcba8</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-11 19:48:37</sys_updated_on>
+        <sys_updated_on>2024-10-14 18:21:45</sys_updated_on>
         <table/>
         <tooltip/>
         <type>8</type>

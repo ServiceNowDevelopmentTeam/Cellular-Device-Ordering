@@ -17,6 +17,7 @@
         <messages/>
         <name>Set mobile true</name>
         <order>-1</order>
+        <published_ref/>
         <script><![CDATA[function onLoad() {
 	g_form.setValue('is_mobile',true);
 }]]></script>
@@ -38,6 +39,7 @@
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
         <variable_set display_value="Device information">138ba1cb1b3ba5d08c5143f3cc4bcb45</variable_set>
         <view/>
     </catalog_script_client>

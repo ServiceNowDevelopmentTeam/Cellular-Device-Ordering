@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description>This will update all cellular devices to the new cellular device flow</description>
+        <name>Set Cellular Devices Flow</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[    var gr = new GlideRecord('sc_cat_item');
+    gr.addEncodedQuery('category=b06546f23731300054b6a3549dbe5dd8^ORcategory=297220971bbfb4508c5143f3cc4bcb56^ORcategory=45831e661b40715062e50ed2cd4bcbc5');//Get hotspots, phones, and tablets
+    gr.query();
+
+    gr.setValue("flow_designer_flow","a0b6776c1bc4751062e50ed2cd4bcb65");//Set flow to cellular device ordering flow
+    gr.updateMultiple();]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-08-15 20:36:45</sys_created_on>
+        <sys_id>7768fc6d1b489e10c16ddb9ebd4bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Cellular Devices Flow</sys_name>
+        <sys_package display_value="Cellular Device Ordering" source="ddd5ad831b3ba5d08c5143f3cc4bcb61">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
+        <sys_update_name>sys_script_fix_7768fc6d1b489e10c16ddb9ebd4bcbb0</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-08-15 20:36:45</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

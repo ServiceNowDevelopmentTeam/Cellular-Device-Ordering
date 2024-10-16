@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description>This sets catalog items in the phone/tablet/mobile phone topics to the category of Non-Procurement. This will ensure the procrement shipping process is not followed for these non-standard items.</description>
+        <name>Set Non-Procurement Category</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[// Initialize an empty array to store taxonomy IDs
+var taxonomies = [];
+
+// Define taxonomy IDs for different device categories
+var phonesTaxonomy = '7845b2ec1bf961508c5143f3cc4bcb47';
+var mobilePhonesTaxonomy = '8545b2ec1bf961508c5143f3cc4bcb88';
+var tabletsTaxonomy = 'c945b2ec1bf961508c5143f3cc4bcb89';
+
+// Define content type ID for catalog items
+var catalogItemContentType = '98f9a16553622010069addeeff7b1248';
+
+// Define category ID for non-procurement items
+var nonProcurementCategory = 'd8c0497433591a909b1810919e5c7b02';
+
+// Add device taxonomy IDs to the taxonomies array
+taxonomies.push(phonesTaxonomy);
+taxonomies.push(mobilePhonesTaxonomy);
+taxonomies.push(tabletsTaxonomy);
+
+// Construct a query string to filter by the specified taxonomies
+var taxonomyQuery = 'topicIN' + taxonomies.join(',');
+
+// Create a new GlideRecord object for the 'm2m_connected_content' table
+var topicGr = new GlideRecord('m2m_connected_content');
+
+// Add encoded query to filter records based on the taxonomy IDs
+topicGr.addEncodedQuery(taxonomyQuery);
+
+// Add another query condition to filter by the catalog item content type
+topicGr.addQuery('content_type', catalogItemContentType);
+
+// Execute the query
+topicGr.query();
+
+// Iterate through the query results
+while(topicGr.next()){
+    // Update the category of the catalog item to non-procurement
+    var catItemGr = new GlideRecord('sc_cat_item');
+    catItemGr.get(topicGr.catalog_item.sys_id.toString());
+    catItemGr.category = nonProcurementCategory;
+    catItemGr.update();
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-10-14 17:02:45</sys_created_on>
+        <sys_id>e3a6497833591a909b1810919e5c7b30</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Set Non-Procurement Category</sys_name>
+        <sys_package display_value="Cellular Device Ordering" source="ddd5ad831b3ba5d08c5143f3cc4bcb61">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
+        <sys_update_name>sys_script_fix_e3a6497833591a909b1810919e5c7b30</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-10-14 17:06:45</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

@@ -4,13 +4,14 @@
         <acls/>
         <active>true</active>
         <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=16242534000,viewActivatedIn=naturalLanguage</attributes>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>a0b6776c1bc4751062e50ed2cd4bcb65</copied_from>
         <copied_from_name>REQF - Mobile Phone Request - S</copied_from_name>
         <description/>
         <internal_name>reqf__tablet_request__s</internal_name>
-        <label_cache>[{"name":"Service Catalog_1.request_item.opened_by.name","label":"Trigger➛Requested Item Record➛Opened by➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Service Catalog_1.request_item.cat_item.sys_name","label":"Trigger➛Requested Item Record➛Item➛Display name","reference":"","reference_display":"Display name","type":"string","base_type":"string","parent_table_name":"sc_cat_item","column_name":"sys_name"},{"name":"b7457ecf-ae09-4190-b157-98a7ae26fcf1.table_name","label":"1 - Update Record➛Request Table","reference":"sc_request","reference_display":"Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7457ecf-ae09-4190-b157-98a7ae26fcf1.record","label":"1 - Update Record➛Request Record","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3d01b19d-83ba-4fdb-bd70-495b3a847ff5.table_name","label":"10 - Update Record➛Request Table","reference":"sc_request","reference_display":"Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3d01b19d-83ba-4fdb-bd70-495b3a847ff5.record","label":"10 - Update Record➛Request Record","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5ec8ebcd-fff0-401f-a635-5348f831e717.table_name","label":"8 - Update Record➛Request Table","reference":"sc_request","reference_display":"Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5ec8ebcd-fff0-401f-a635-5348f831e717.record","label":"8 - Update Record➛Request Record","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9d19fa17-0b9b-42a6-9418-1e8583687921.table_name","label":"6 - Update Record➛Request Table","reference":"sc_request","reference_display":"Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9d19fa17-0b9b-42a6-9418-1e8583687921.record","label":"6 - Update Record➛Request Record","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bf48377f-44ab-47f8-a23e-87f75b899a1a.table_name","label":"5➛Request Table","reference":"sc_request","reference_display":"Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bf48377f-44ab-47f8-a23e-87f75b899a1a.record","label":"5➛Request Record","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.state","label":"Trigger➛Requested Item Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"sc_req_item","column_name":"state","choices":[{"image":"","used":false,"label":"Open","reference":false,"rawLabel":"Open","selected":false,"missing":false,"value":"1","parameters":{"name":"sc_req_item"}},{"image":"","used":false,"label":"Work in Progress","reference":false,"rawLabel":"Work in Progress","selected":false,"missing":false,"value":"2","parameters":{"name":"sc_req_item"}},{"image":"","used":false,"label":"On Hold - Awaiting Caller","reference":false,"rawLabel":"On Hold - Awaiting Caller","selected":false,"missing":false,"value":"50","parameters":{"name":"sc_req_item"}},{"image":"","used":false,"label":"On Hold - Awaiting Vendor","reference":false,"rawLabel":"On Hold - Awaiting Vendor","selected":false,"missing":false,"value":"52","parameters":{"name":"sc_req_item"}},{"image":"","used":false,"label":"Closed Complete","reference":false,"rawLabel":"Closed Complete","selected":false,"missing":false,"value":"3","parameters":{"name":"sc_req_item"}},{"image":"","used":false,"label":"Pending Approval","reference":false,"rawLabel":"Pending Approval","selected":false,"missing":false,"value":"54","parameters":{"name":"sc_req_item"}},{"image":"","used":false,"label":"Closed Incomplete","reference":false,"rawLabel":"Closed Incomplete","selected":false,"missing":false,"value":"4","parameters":{"name":"sc_req_item"}}]},{"name":"42b88dd4-c13d-4d7e-b940-d3e89d8d9368.state","label":"4 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"Service Catalog_1.request_item.request","label":"Trigger➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request"},{"name":"0e426711-b9d0-4360-a12f-c87234e8cc10.Table","label":"3 - Create Task➛Catalog Task Table","reference":"sc_task","reference_display":"Catalog Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0e426711-b9d0-4360-a12f-c87234e8cc10.Record","label":"3 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.requested_for.name","label":"Trigger➛Requested Item Record➛Requested for➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"4520bb00-1ae5-48ca-99b8-da3eba2f5f43.related_ritm.opened_by","label":"1➛related_ritm➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"opened_by"},{"name":"9ba29be2-8736-40d9-96dd-0c1797007710.table_name","label":"2 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9ba29be2-8736-40d9-96dd-0c1797007710.record","label":"2 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4520bb00-1ae5-48ca-99b8-da3eba2f5f43.short_description","label":"1 - Get Catalog Variables➛short_description","reference":"","reference_display":"short_description","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"4520bb00-1ae5-48ca-99b8-da3eba2f5f43.request_title","label":"1 - Get Catalog Variables➛request_title","reference":"","reference_display":"request_title","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"4520bb00-1ae5-48ca-99b8-da3eba2f5f43.requested_by_date","label":"1 - Get Catalog Variables➛requested_by_date","reference":"","reference_display":"requested_by_date","type":"glide_date","base_type":"glide_date","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"4520bb00-1ae5-48ca-99b8-da3eba2f5f43.category","label":"1 - Get Catalog Variables➛category","reference":"","reference_display":"category","type":"choice","base_type":"choice","choices":[{"label":"Access","value":"access","order":100.0},{"label":"Application","value":"application","order":100.0},{"label":"Generic","value":"generic","order":100.0},{"label":"Hardware","value":"hardware","order":100.0},{"label":"Printers","value":"Printers","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"4520bb00-1ae5-48ca-99b8-da3eba2f5f43.related_ritm","label":"1 - Get Catalog Variables➛related_ritm","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"4520bb00-1ae5-48ca-99b8-da3eba2f5f43.related_incident_info","label":"1 - Get Catalog Variables➛related_incident_info","reference":"","reference_display":"related_incident_info","type":"html","base_type":"html","attributes":{"catalogType":"23","catalogTypeLabel":"HTML"}},{"name":"4520bb00-1ae5-48ca-99b8-da3eba2f5f43.related_inc","label":"1 - Get Catalog Variables➛related_inc","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"df7a677d-4fae-415b-9e29-c2a0bc76a094.state","label":"11 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"d65aeb5b-a650-4949-af00-60df07e5f5d8.record","label":"12 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d65aeb5b-a650-4949-af00-60df07e5f5d8.table_name","label":"12 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.cat_item.group","label":"Trigger - Service Catalog➛Requested Item Record➛Item➛Fulfillment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"sc_cat_item","column_name":"group"}]</label_cache>
+        <label_cache>[{"name":"Service Catalog_1.request_item.cat_item.group","label":"Trigger - Service Catalog➛Requested Item Record➛Item➛Fulfillment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"sc_cat_item","column_name":"group"},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.requested_for.name","label":"Trigger➛Requested Item Record➛Requested for➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Service Catalog_1.request_item.request","label":"Trigger➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request"},{"name":"Service Catalog_1.request_item.state","label":"Trigger➛Requested Item Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"sc_req_item","column_name":"state","choices":[{"used":false,"image":"","label":"Open","reference":false,"rawLabel":"Open","selected":false,"missing":false,"value":"1","parameters":{"name":"sc_req_item"}},{"used":false,"image":"","label":"Work in Progress","reference":false,"rawLabel":"Work in Progress","selected":false,"missing":false,"value":"2","parameters":{"name":"sc_req_item"}},{"used":false,"image":"","label":"On Hold - Awaiting Caller","reference":false,"rawLabel":"On Hold - Awaiting Caller","selected":false,"missing":false,"value":"50","parameters":{"name":"sc_req_item"}},{"used":false,"image":"","label":"On Hold - Awaiting Vendor","reference":false,"rawLabel":"On Hold - Awaiting Vendor","selected":false,"missing":false,"value":"52","parameters":{"name":"sc_req_item"}},{"used":false,"image":"","label":"Closed Complete","reference":false,"rawLabel":"Closed Complete","selected":false,"missing":false,"value":"3","parameters":{"name":"sc_req_item"}},{"used":false,"image":"","label":"Pending Approval","reference":false,"rawLabel":"Pending Approval","selected":false,"missing":false,"value":"54","parameters":{"name":"sc_req_item"}},{"used":false,"image":"","label":"Closed Incomplete","reference":false,"rawLabel":"Closed Incomplete","selected":false,"missing":false,"value":"4","parameters":{"name":"sc_req_item"}}]},{"name":"Service Catalog_1.request_item.cat_item.sys_name","label":"Trigger➛Requested Item Record➛Item➛Display name","reference":"","reference_display":"Display name","type":"string","base_type":"string","parent_table_name":"sc_cat_item","column_name":"sys_name"},{"name":"Service Catalog_1.request_item.quantity","label":"Trigger - Service Catalog➛Requested Item Record➛Quantity","reference":"","reference_display":"Quantity","type":"integer","base_type":"integer","parent_table_name":"sc_req_item","column_name":"quantity"}]</label_cache>
         <master_snapshot>f1d1cc741b48751062e50ed2cd4bcb73</master_snapshot>
         <name>REQF - Tablet Request - S</name>
         <natlang/>
@@ -29,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>93a180741b48751062e50ed2cd4bcbe0</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>REQF - Tablet Request - S</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cellular Device Ordering" source="ddd5ad831b3ba5d08c5143f3cc4bcb61">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_package>
@@ -37,7 +38,7 @@
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
         <sys_update_name>sys_hub_flow_93a180741b48751062e50ed2cd4bcbe0</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:59</sys_updated_on>
+        <sys_updated_on>2024-10-02 21:42:29</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=93a180741b48751062e50ed2cd4bcbe0"/>
@@ -70,10 +71,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:19:20</sys_created_on>
         <sys_id>3ba144741b48751062e50ed2cd4bcb2b</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:58</sys_updated_on>
+        <sys_updated_on>2024-01-16 15:08:19</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -158,14 +159,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:19:18</sys_created_on>
         <sys_id>27a1c0741b48751062e50ed2cd4bcbc1</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:58</sys_updated_on>
+        <sys_updated_on>2024-01-16 15:08:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -178,6 +179,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=27a1c0741b48751062e50ed2cd4bcbc1"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -241,14 +243,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:19:18</sys_created_on>
         <sys_id>aba1c0741b48751062e50ed2cd4bcb40</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:58</sys_updated_on>
+        <sys_updated_on>2024-01-16 15:08:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -261,6 +263,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=aba1c0741b48751062e50ed2cd4bcb40"/>
     <sys_hub_flow_output action="delete_multiple" query="model=93a180741b48751062e50ed2cd4bcbe0"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=93a180741b48751062e50ed2cd4bcbe0"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=93a180741b48751062e50ed2cd4bcbe0^sys_idNOT IN3ba144741b48751062e50ed2cd4bcb29,3fa104741b48751062e50ed2cd4bcbb2,73a104741b48751062e50ed2cd4bcb68,a3a104741b48751062e50ed2cd4bcb29,afa104741b48751062e50ed2cd4bcb15,bba104741b48751062e50ed2cd4bcbb8,f3a104741b48751062e50ed2cd4bcb2f,fba104741b48751062e50ed2cd4bcb6e,ffa104741b48751062e50ed2cd4bcbfd"/>
@@ -269,6 +272,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="REQF - Tablet Request - S">93a180741b48751062e50ed2cd4bcbe0</flow>
@@ -278,10 +282,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:19:20</sys_created_on>
         <sys_id>3ba144741b48751062e50ed2cd4bcb29</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:59</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-22 19:16:52</sys_updated_on>
         <ui_id>d65aeb5b-a650-4949-af00-60df07e5f5d8</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3ba144741b48751062e50ed2cd4bcb29"/>
@@ -357,6 +361,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="REQF - Tablet Request - S">93a180741b48751062e50ed2cd4bcbe0</flow>
@@ -366,10 +371,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:19:19</sys_created_on>
         <sys_id>3fa104741b48751062e50ed2cd4bcbb2</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:59</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-22 19:16:52</sys_updated_on>
         <ui_id>5ec8ebcd-fff0-401f-a635-5348f831e717</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3fa104741b48751062e50ed2cd4bcbb2"/>
@@ -445,6 +450,7 @@
         <action_inputs/>
         <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
         <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="REQF - Tablet Request - S">93a180741b48751062e50ed2cd4bcbe0</flow>
@@ -454,10 +460,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:19:19</sys_created_on>
         <sys_id>73a104741b48751062e50ed2cd4bcb68</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:59</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-22 19:16:52</sys_updated_on>
         <ui_id>42b88dd4-c13d-4d7e-b940-d3e89d8d9368</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=73a104741b48751062e50ed2cd4bcb68"/>
@@ -533,6 +539,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="REQF - Tablet Request - S">93a180741b48751062e50ed2cd4bcbe0</flow>
@@ -542,10 +549,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:19:19</sys_created_on>
         <sys_id>a3a104741b48751062e50ed2cd4bcb29</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:58</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-22 19:16:52</sys_updated_on>
         <ui_id>9ba29be2-8736-40d9-96dd-0c1797007710</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a3a104741b48751062e50ed2cd4bcb29"/>
@@ -607,6 +614,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="REQF - Tablet Request - S">93a180741b48751062e50ed2cd4bcbe0</flow>
@@ -616,10 +624,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:19:19</sys_created_on>
         <sys_id>afa104741b48751062e50ed2cd4bcb15</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:58</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-22 19:16:52</sys_updated_on>
         <ui_id>b7457ecf-ae09-4190-b157-98a7ae26fcf1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=afa104741b48751062e50ed2cd4bcb15"/>
@@ -681,6 +689,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="REQF - Tablet Request - S">93a180741b48751062e50ed2cd4bcbe0</flow>
@@ -690,10 +699,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:19:19</sys_created_on>
         <sys_id>bba104741b48751062e50ed2cd4bcbb8</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:59</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-22 19:16:52</sys_updated_on>
         <ui_id>3d01b19d-83ba-4fdb-bd70-495b3a847ff5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bba104741b48751062e50ed2cd4bcbb8"/>
@@ -769,6 +778,7 @@
         <action_inputs/>
         <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
         <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="REQF - Tablet Request - S">93a180741b48751062e50ed2cd4bcbe0</flow>
@@ -778,10 +788,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:19:19</sys_created_on>
         <sys_id>f3a104741b48751062e50ed2cd4bcb2f</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:59</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-22 19:16:52</sys_updated_on>
         <ui_id>0e426711-b9d0-4360-a12f-c87234e8cc10</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f3a104741b48751062e50ed2cd4bcb2f"/>
@@ -806,11 +816,11 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:19:19</sys_created_on>
         <sys_id>f7a104741b48751062e50ed2cd4bcb62</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-12 16:22:31</sys_updated_on>
+        <sys_updated_on>2024-01-16 15:08:10</sys_updated_on>
         <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
-        <value>request={{Service Catalog_1.request_item.request}}^request_item={{Service Catalog_1.request_item}}^short_description=Tablet Request - {{Service Catalog_1.request_item.cat_item.sys_name}} - {{Service Catalog_1.request_item.requested_for.name}}^assignment_group={{Service Catalog_1.request_item.cat_item.group}}</value>
+        <value>request={{Service Catalog_1.request_item.request}}^request_item={{Service Catalog_1.request_item}}^short_description=Tablet Request - {{Service Catalog_1.request_item.cat_item.sys_name}}- {{Service Catalog_1.request_item.quantity}} - {{Service Catalog_1.request_item.requested_for.name}}^assignment_group={{Service Catalog_1.request_item.cat_item.group}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>task_table</field>
@@ -831,6 +841,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="REQF - Tablet Request - S">93a180741b48751062e50ed2cd4bcbe0</flow>
@@ -840,10 +851,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:19:19</sys_created_on>
         <sys_id>fba104741b48751062e50ed2cd4bcb6e</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:59</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-22 19:16:52</sys_updated_on>
         <ui_id>9d19fa17-0b9b-42a6-9418-1e8583687921</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fba104741b48751062e50ed2cd4bcb6e"/>
@@ -919,6 +930,7 @@
         <action_inputs/>
         <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
         <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="REQF - Tablet Request - S">93a180741b48751062e50ed2cd4bcbe0</flow>
@@ -928,10 +940,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:19:20</sys_created_on>
         <sys_id>ffa104741b48751062e50ed2cd4bcbfd</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:59</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-22 19:16:52</sys_updated_on>
         <ui_id>df7a677d-4fae-415b-9e29-c2a0bc76a094</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ffa104741b48751062e50ed2cd4bcbfd"/>
@@ -1005,7 +1017,8 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=93a180741b48751062e50ed2cd4bcbe0"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=93a180741b48751062e50ed2cd4bcbe0^sys_idNOT IN2fa104741b48751062e50ed2cd4bcb0b,a3a104741b48751062e50ed2cd4bcb0f,e3a1c0741b48751062e50ed2cd4bcbc9"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">8ac795de1b5525108c5143f3cc4bcbc0</block>
+        <attributes/>
+        <block display_value="">2e4cffc51b737d5062e50ed2cd4bcb58</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1026,10 +1039,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:19:18</sys_created_on>
         <sys_id>2fa104741b48751062e50ed2cd4bcb0b</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:59</sys_updated_on>
+        <sys_updated_on>2024-01-16 15:08:20</sys_updated_on>
         <ui_id>b85d5c50-532c-4e0b-ba14-1867d53cab2f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1051,7 +1064,8 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2fa104741b48751062e50ed2cd4bcb0b"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=2fa104741b48751062e50ed2cd4bcb0b"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">c6c795de1b5525108c5143f3cc4bcbc7</block>
+        <attributes/>
+        <block display_value="">2a4cffc51b737d5062e50ed2cd4bcb5f</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1072,10 +1086,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:19:18</sys_created_on>
         <sys_id>a3a104741b48751062e50ed2cd4bcb0f</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:59</sys_updated_on>
+        <sys_updated_on>2024-01-16 15:08:20</sys_updated_on>
         <ui_id>edc7ec6b-a2d9-41f9-a857-2cc3e2852c25</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1097,7 +1111,8 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a3a104741b48751062e50ed2cd4bcb0f"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=a3a104741b48751062e50ed2cd4bcb0f"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">cec795de1b5525108c5143f3cc4bcbb8</block>
+        <attributes/>
+        <block display_value="">e24cffc51b737d5062e50ed2cd4bcb45</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1118,10 +1133,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:19:18</sys_created_on>
         <sys_id>e3a1c0741b48751062e50ed2cd4bcbc9</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:59</sys_updated_on>
+        <sys_updated_on>2024-01-16 15:08:20</sys_updated_on>
         <ui_id>455619ea-8902-4432-97d2-ccbdf226162b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1158,7 +1173,7 @@
         <sys_created_on>2023-07-12 16:19:18</sys_created_on>
         <sys_id>eba1c0741b48751062e50ed2cd4bcbc5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Cellular Device Ordering" source="ddd5ad831b3ba5d08c5143f3cc4bcb61">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
@@ -1181,7 +1196,7 @@
         <sys_created_on>2023-07-12 16:19:18</sys_created_on>
         <sys_id>efa1c0741b48751062e50ed2cd4bcb43</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Request Item</sys_name>
         <sys_package display_value="Cellular Device Ordering" source="ddd5ad831b3ba5d08c5143f3cc4bcb61">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
@@ -1194,37 +1209,19 @@
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_93a180741b48751062e50ed2cd4bcbe0"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_93a180741b48751062e50ed2cd4bcbe0"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_93a180741b48751062e50ed2cd4bcbe0"/>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=93a180741b48751062e50ed2cd4bcbe0^sys_idNOT IN8bd140b41b48751062e50ed2cd4bcbb2"/>
-    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
-        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
-        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"8bd140b41b48751062e50ed2cd4bcbb2","name":"plan","plan_signature":null}}</plan>
-        <plan_id>93a180741b48751062e50ed2cd4bcbe0</plan_id>
-        <snapshot>f1d1cc741b48751062e50ed2cd4bcb73</snapshot>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2023-07-12 16:20:06</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>8bd140b41b48751062e50ed2cd4bcbb2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_overrides/>
-        <sys_scope/>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:58</sys_updated_on>
-        <trigger display_value="">c3d140b41b48751062e50ed2cd4bcbb2</trigger>
-    </sys_flow_trigger_plan>
-    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=93a180741b48751062e50ed2cd4bcbe0"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
         <active>true</active>
         <annotation/>
+        <attributes/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>a0b6776c1bc4751062e50ed2cd4bcb65</copied_from>
         <copied_from_name/>
         <description/>
         <internal_name>reqf__tablet_request__s</internal_name>
-        <label_cache>[{"name":"Service Catalog_1.request_item.opened_by.name","label":"Trigger➛Requested Item Record➛Opened by➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Service Catalog_1.request_item.cat_item.sys_name","label":"Trigger➛Requested Item Record➛Item➛Display name","reference":"","reference_display":"Display name","type":"string","base_type":"string","parent_table_name":"sc_cat_item","column_name":"sys_name"},{"name":"b7457ecf-ae09-4190-b157-98a7ae26fcf1.table_name","label":"1 - Update Record➛Request Table","reference":"sc_request","reference_display":"Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7457ecf-ae09-4190-b157-98a7ae26fcf1.record","label":"1 - Update Record➛Request Record","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3d01b19d-83ba-4fdb-bd70-495b3a847ff5.table_name","label":"10 - Update Record➛Request Table","reference":"sc_request","reference_display":"Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3d01b19d-83ba-4fdb-bd70-495b3a847ff5.record","label":"10 - Update Record➛Request Record","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5ec8ebcd-fff0-401f-a635-5348f831e717.table_name","label":"8 - Update Record➛Request Table","reference":"sc_request","reference_display":"Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5ec8ebcd-fff0-401f-a635-5348f831e717.record","label":"8 - Update Record➛Request Record","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9d19fa17-0b9b-42a6-9418-1e8583687921.table_name","label":"6 - Update Record➛Request Table","reference":"sc_request","reference_display":"Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9d19fa17-0b9b-42a6-9418-1e8583687921.record","label":"6 - Update Record➛Request Record","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bf48377f-44ab-47f8-a23e-87f75b899a1a.table_name","label":"5➛Request Table","reference":"sc_request","reference_display":"Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bf48377f-44ab-47f8-a23e-87f75b899a1a.record","label":"5➛Request Record","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.state","label":"Trigger➛Requested Item Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"sc_req_item","column_name":"state","choices":[{"image":"","used":false,"label":"Open","reference":false,"rawLabel":"Open","selected":false,"missing":false,"value":"1","parameters":{"name":"sc_req_item"}},{"image":"","used":false,"label":"Work in Progress","reference":false,"rawLabel":"Work in Progress","selected":false,"missing":false,"value":"2","parameters":{"name":"sc_req_item"}},{"image":"","used":false,"label":"On Hold - Awaiting Caller","reference":false,"rawLabel":"On Hold - Awaiting Caller","selected":false,"missing":false,"value":"50","parameters":{"name":"sc_req_item"}},{"image":"","used":false,"label":"On Hold - Awaiting Vendor","reference":false,"rawLabel":"On Hold - Awaiting Vendor","selected":false,"missing":false,"value":"52","parameters":{"name":"sc_req_item"}},{"image":"","used":false,"label":"Closed Complete","reference":false,"rawLabel":"Closed Complete","selected":false,"missing":false,"value":"3","parameters":{"name":"sc_req_item"}},{"image":"","used":false,"label":"Pending Approval","reference":false,"rawLabel":"Pending Approval","selected":false,"missing":false,"value":"54","parameters":{"name":"sc_req_item"}},{"image":"","used":false,"label":"Closed Incomplete","reference":false,"rawLabel":"Closed Incomplete","selected":false,"missing":false,"value":"4","parameters":{"name":"sc_req_item"}}]},{"name":"42b88dd4-c13d-4d7e-b940-d3e89d8d9368.state","label":"4 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"Service Catalog_1.request_item.request","label":"Trigger➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request"},{"name":"0e426711-b9d0-4360-a12f-c87234e8cc10.Table","label":"3 - Create Task➛Catalog Task Table","reference":"sc_task","reference_display":"Catalog Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0e426711-b9d0-4360-a12f-c87234e8cc10.Record","label":"3 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.requested_for.name","label":"Trigger➛Requested Item Record➛Requested for➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"4520bb00-1ae5-48ca-99b8-da3eba2f5f43.related_ritm.opened_by","label":"1➛related_ritm➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"opened_by"},{"name":"9ba29be2-8736-40d9-96dd-0c1797007710.table_name","label":"2 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9ba29be2-8736-40d9-96dd-0c1797007710.record","label":"2 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4520bb00-1ae5-48ca-99b8-da3eba2f5f43.short_description","label":"1 - Get Catalog Variables➛short_description","reference":"","reference_display":"short_description","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"4520bb00-1ae5-48ca-99b8-da3eba2f5f43.request_title","label":"1 - Get Catalog Variables➛request_title","reference":"","reference_display":"request_title","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"4520bb00-1ae5-48ca-99b8-da3eba2f5f43.requested_by_date","label":"1 - Get Catalog Variables➛requested_by_date","reference":"","reference_display":"requested_by_date","type":"glide_date","base_type":"glide_date","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"4520bb00-1ae5-48ca-99b8-da3eba2f5f43.category","label":"1 - Get Catalog Variables➛category","reference":"","reference_display":"category","type":"choice","base_type":"choice","choices":[{"label":"Access","value":"access","order":100.0},{"label":"Application","value":"application","order":100.0},{"label":"Generic","value":"generic","order":100.0},{"label":"Hardware","value":"hardware","order":100.0},{"label":"Printers","value":"Printers","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"4520bb00-1ae5-48ca-99b8-da3eba2f5f43.related_ritm","label":"1 - Get Catalog Variables➛related_ritm","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"4520bb00-1ae5-48ca-99b8-da3eba2f5f43.related_incident_info","label":"1 - Get Catalog Variables➛related_incident_info","reference":"","reference_display":"related_incident_info","type":"html","base_type":"html","attributes":{"catalogType":"23","catalogTypeLabel":"HTML"}},{"name":"4520bb00-1ae5-48ca-99b8-da3eba2f5f43.related_inc","label":"1 - Get Catalog Variables➛related_inc","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"df7a677d-4fae-415b-9e29-c2a0bc76a094.state","label":"11 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"d65aeb5b-a650-4949-af00-60df07e5f5d8.record","label":"12 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d65aeb5b-a650-4949-af00-60df07e5f5d8.table_name","label":"12 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.cat_item.group","label":"Trigger - Service Catalog➛Requested Item Record➛Item➛Fulfillment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"sc_cat_item","column_name":"group"}]</label_cache>
+        <label_cache>[{"name":"Service Catalog_1.request_item.cat_item.group","label":"Trigger - Service Catalog➛Requested Item Record➛Item➛Fulfillment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"sc_cat_item","column_name":"group"},{"name":"d65aeb5b-a650-4949-af00-60df07e5f5d8.table_name","label":"12 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d65aeb5b-a650-4949-af00-60df07e5f5d8.record","label":"12 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df7a677d-4fae-415b-9e29-c2a0bc76a094.state","label":"11 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"4520bb00-1ae5-48ca-99b8-da3eba2f5f43.related_inc","label":"1 - Get Catalog Variables➛related_inc","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"4520bb00-1ae5-48ca-99b8-da3eba2f5f43.related_incident_info","label":"1 - Get Catalog Variables➛related_incident_info","reference":"","reference_display":"related_incident_info","type":"html","base_type":"html","attributes":{"catalogType":"23","catalogTypeLabel":"HTML"}},{"name":"4520bb00-1ae5-48ca-99b8-da3eba2f5f43.related_ritm","label":"1 - Get Catalog Variables➛related_ritm","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"4520bb00-1ae5-48ca-99b8-da3eba2f5f43.category","label":"1 - Get Catalog Variables➛category","reference":"","reference_display":"category","type":"choice","base_type":"choice","choices":[{"label":"Access","value":"access","order":100.0},{"label":"Application","value":"application","order":100.0},{"label":"Generic","value":"generic","order":100.0},{"label":"Hardware","value":"hardware","order":100.0},{"label":"Printers","value":"Printers","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"4520bb00-1ae5-48ca-99b8-da3eba2f5f43.requested_by_date","label":"1 - Get Catalog Variables➛requested_by_date","reference":"","reference_display":"requested_by_date","type":"glide_date","base_type":"glide_date","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"4520bb00-1ae5-48ca-99b8-da3eba2f5f43.request_title","label":"1 - Get Catalog Variables➛request_title","reference":"","reference_display":"request_title","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"4520bb00-1ae5-48ca-99b8-da3eba2f5f43.short_description","label":"1 - Get Catalog Variables➛short_description","reference":"","reference_display":"short_description","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"9ba29be2-8736-40d9-96dd-0c1797007710.record","label":"2 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9ba29be2-8736-40d9-96dd-0c1797007710.table_name","label":"2 - Update Record➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4520bb00-1ae5-48ca-99b8-da3eba2f5f43.related_ritm.opened_by","label":"1➛related_ritm➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"opened_by"},{"name":"Service Catalog_1.request_item.requested_for.name","label":"Trigger➛Requested Item Record➛Requested for➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"0e426711-b9d0-4360-a12f-c87234e8cc10.Record","label":"3 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0e426711-b9d0-4360-a12f-c87234e8cc10.Table","label":"3 - Create Task➛Catalog Task Table","reference":"sc_task","reference_display":"Catalog Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.request","label":"Trigger➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request"},{"name":"42b88dd4-c13d-4d7e-b940-d3e89d8d9368.state","label":"4 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"Service Catalog_1.request_item.state","label":"Trigger➛Requested Item Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"sc_req_item","column_name":"state","choices":[{"used":false,"image":"","label":"Open","reference":false,"rawLabel":"Open","selected":false,"missing":false,"value":"1","parameters":{"name":"sc_req_item"}},{"used":false,"image":"","label":"Work in Progress","reference":false,"rawLabel":"Work in Progress","selected":false,"missing":false,"value":"2","parameters":{"name":"sc_req_item"}},{"used":false,"image":"","label":"On Hold - Awaiting Caller","reference":false,"rawLabel":"On Hold - Awaiting Caller","selected":false,"missing":false,"value":"50","parameters":{"name":"sc_req_item"}},{"used":false,"image":"","label":"On Hold - Awaiting Vendor","reference":false,"rawLabel":"On Hold - Awaiting Vendor","selected":false,"missing":false,"value":"52","parameters":{"name":"sc_req_item"}},{"used":false,"image":"","label":"Closed Complete","reference":false,"rawLabel":"Closed Complete","selected":false,"missing":false,"value":"3","parameters":{"name":"sc_req_item"}},{"used":false,"image":"","label":"Pending Approval","reference":false,"rawLabel":"Pending Approval","selected":false,"missing":false,"value":"54","parameters":{"name":"sc_req_item"}},{"used":false,"image":"","label":"Closed Incomplete","reference":false,"rawLabel":"Closed Incomplete","selected":false,"missing":false,"value":"4","parameters":{"name":"sc_req_item"}}]},{"name":"bf48377f-44ab-47f8-a23e-87f75b899a1a.record","label":"5➛Request Record","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bf48377f-44ab-47f8-a23e-87f75b899a1a.table_name","label":"5➛Request Table","reference":"sc_request","reference_display":"Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9d19fa17-0b9b-42a6-9418-1e8583687921.record","label":"6 - Update Record➛Request Record","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9d19fa17-0b9b-42a6-9418-1e8583687921.table_name","label":"6 - Update Record➛Request Table","reference":"sc_request","reference_display":"Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5ec8ebcd-fff0-401f-a635-5348f831e717.record","label":"8 - Update Record➛Request Record","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5ec8ebcd-fff0-401f-a635-5348f831e717.table_name","label":"8 - Update Record➛Request Table","reference":"sc_request","reference_display":"Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3d01b19d-83ba-4fdb-bd70-495b3a847ff5.record","label":"10 - Update Record➛Request Record","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3d01b19d-83ba-4fdb-bd70-495b3a847ff5.table_name","label":"10 - Update Record➛Request Table","reference":"sc_request","reference_display":"Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7457ecf-ae09-4190-b157-98a7ae26fcf1.record","label":"1 - Update Record➛Request Record","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b7457ecf-ae09-4190-b157-98a7ae26fcf1.table_name","label":"1 - Update Record➛Request Table","reference":"sc_request","reference_display":"Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.cat_item.sys_name","label":"Trigger➛Requested Item Record➛Item➛Display name","reference":"","reference_display":"Display name","type":"string","base_type":"string","parent_table_name":"sc_cat_item","column_name":"sys_name"},{"name":"Service Catalog_1.request_item.opened_by.name","label":"Trigger➛Requested Item Record➛Opened by➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Service Catalog_1.request_item.quantity","label":"Trigger - Service Catalog➛Requested Item Record➛Quantity","reference":"","reference_display":"Quantity","type":"integer","base_type":"integer","parent_table_name":"sc_req_item","column_name":"quantity"}]</label_cache>
         <master>true</master>
         <name>REQF - Tablet Request - S</name>
         <natlang/>
@@ -1241,7 +1238,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f1d1cc741b48751062e50ed2cd4bcb73</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1249,7 +1246,7 @@
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:56</sys_updated_on>
+        <sys_updated_on>2024-01-16 15:08:17</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=f1d1cc741b48751062e50ed2cd4bcb73"/>
@@ -1264,10 +1261,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:20:04</sys_created_on>
         <sys_id>2ed140b41b48751062e50ed2cd4bcb02</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:58</sys_updated_on>
+        <sys_updated_on>2024-01-16 15:08:19</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1352,14 +1349,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:20:01</sys_created_on>
         <sys_id>b9d1cc741b48751062e50ed2cd4bcb75</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:56</sys_updated_on>
+        <sys_updated_on>2024-01-16 15:08:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1372,6 +1369,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b9d1cc741b48751062e50ed2cd4bcb75"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1435,14 +1433,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:20:02</sys_created_on>
         <sys_id>ced100b41b48751062e50ed2cd4bcb49</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:56</sys_updated_on>
+        <sys_updated_on>2024-01-16 15:08:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1455,6 +1453,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ced100b41b48751062e50ed2cd4bcb49"/>
     <sys_hub_flow_output action="delete_multiple" query="model=f1d1cc741b48751062e50ed2cd4bcb73"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f1d1cc741b48751062e50ed2cd4bcb73"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=f1d1cc741b48751062e50ed2cd4bcb73^sys_idNOT IN26d100b41b48751062e50ed2cd4bcbaf,2ad100b41b48751062e50ed2cd4bcbfa,2ed140b41b48751062e50ed2cd4bcb00,62d100b41b48751062e50ed2cd4bcbe1,92d100b41b48751062e50ed2cd4bcb8d,9ad100b41b48751062e50ed2cd4bcb72,9ad100b41b48751062e50ed2cd4bcb78,aed100b41b48751062e50ed2cd4bcbb5,eed100b41b48751062e50ed2cd4bcbe6"/>
@@ -1463,6 +1462,7 @@
         <action_inputs/>
         <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
         <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="REQF - Tablet Request - S">f1d1cc741b48751062e50ed2cd4bcb73</flow>
@@ -1472,10 +1472,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:20:03</sys_created_on>
         <sys_id>26d100b41b48751062e50ed2cd4bcbaf</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:56</sys_updated_on>
+        <sys_updated_on>2024-01-16 15:08:17</sys_updated_on>
         <ui_id>42b88dd4-c13d-4d7e-b940-d3e89d8d9368</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=26d100b41b48751062e50ed2cd4bcbaf"/>
@@ -1551,6 +1551,7 @@
         <action_inputs/>
         <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
         <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="REQF - Tablet Request - S">f1d1cc741b48751062e50ed2cd4bcb73</flow>
@@ -1560,10 +1561,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:20:04</sys_created_on>
         <sys_id>2ad100b41b48751062e50ed2cd4bcbfa</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:56</sys_updated_on>
+        <sys_updated_on>2024-01-16 15:08:17</sys_updated_on>
         <ui_id>df7a677d-4fae-415b-9e29-c2a0bc76a094</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2ad100b41b48751062e50ed2cd4bcbfa"/>
@@ -1639,6 +1640,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="REQF - Tablet Request - S">f1d1cc741b48751062e50ed2cd4bcb73</flow>
@@ -1648,10 +1650,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:20:04</sys_created_on>
         <sys_id>2ed140b41b48751062e50ed2cd4bcb00</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:56</sys_updated_on>
+        <sys_updated_on>2024-01-16 15:08:17</sys_updated_on>
         <ui_id>d65aeb5b-a650-4949-af00-60df07e5f5d8</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2ed140b41b48751062e50ed2cd4bcb00"/>
@@ -1727,6 +1729,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="REQF - Tablet Request - S">f1d1cc741b48751062e50ed2cd4bcb73</flow>
@@ -1736,10 +1739,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:20:03</sys_created_on>
         <sys_id>62d100b41b48751062e50ed2cd4bcbe1</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:56</sys_updated_on>
+        <sys_updated_on>2024-01-16 15:08:17</sys_updated_on>
         <ui_id>5ec8ebcd-fff0-401f-a635-5348f831e717</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=62d100b41b48751062e50ed2cd4bcbe1"/>
@@ -1815,6 +1818,7 @@
         <action_inputs/>
         <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
         <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="REQF - Tablet Request - S">f1d1cc741b48751062e50ed2cd4bcb73</flow>
@@ -1824,10 +1828,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:20:03</sys_created_on>
         <sys_id>92d100b41b48751062e50ed2cd4bcb8d</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:56</sys_updated_on>
+        <sys_updated_on>2024-01-16 15:08:17</sys_updated_on>
         <ui_id>0e426711-b9d0-4360-a12f-c87234e8cc10</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=92d100b41b48751062e50ed2cd4bcb8d"/>
@@ -1852,11 +1856,11 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:20:03</sys_created_on>
         <sys_id>9ad100b41b48751062e50ed2cd4bcb8e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-12 16:22:36</sys_updated_on>
+        <sys_updated_on>2024-01-16 15:08:16</sys_updated_on>
         <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
-        <value>request={{Service Catalog_1.request_item.request}}^request_item={{Service Catalog_1.request_item}}^short_description=Tablet Request - {{Service Catalog_1.request_item.cat_item.sys_name}} - {{Service Catalog_1.request_item.requested_for.name}}^assignment_group={{Service Catalog_1.request_item.cat_item.group}}</value>
+        <value>request={{Service Catalog_1.request_item.request}}^request_item={{Service Catalog_1.request_item}}^short_description=Tablet Request - {{Service Catalog_1.request_item.cat_item.sys_name}}- {{Service Catalog_1.request_item.quantity}} - {{Service Catalog_1.request_item.requested_for.name}}^assignment_group={{Service Catalog_1.request_item.cat_item.group}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>task_table</field>
@@ -1877,6 +1881,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="REQF - Tablet Request - S">f1d1cc741b48751062e50ed2cd4bcb73</flow>
@@ -1886,10 +1891,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:20:02</sys_created_on>
         <sys_id>9ad100b41b48751062e50ed2cd4bcb72</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:56</sys_updated_on>
+        <sys_updated_on>2024-01-16 15:08:17</sys_updated_on>
         <ui_id>b7457ecf-ae09-4190-b157-98a7ae26fcf1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9ad100b41b48751062e50ed2cd4bcb72"/>
@@ -1951,6 +1956,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="REQF - Tablet Request - S">f1d1cc741b48751062e50ed2cd4bcb73</flow>
@@ -1960,10 +1966,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:20:03</sys_created_on>
         <sys_id>9ad100b41b48751062e50ed2cd4bcb78</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:56</sys_updated_on>
+        <sys_updated_on>2024-01-16 15:08:17</sys_updated_on>
         <ui_id>9ba29be2-8736-40d9-96dd-0c1797007710</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9ad100b41b48751062e50ed2cd4bcb78"/>
@@ -2025,6 +2031,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="REQF - Tablet Request - S">f1d1cc741b48751062e50ed2cd4bcb73</flow>
@@ -2034,10 +2041,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:20:03</sys_created_on>
         <sys_id>aed100b41b48751062e50ed2cd4bcbb5</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:56</sys_updated_on>
+        <sys_updated_on>2024-01-16 15:08:17</sys_updated_on>
         <ui_id>9d19fa17-0b9b-42a6-9418-1e8583687921</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=aed100b41b48751062e50ed2cd4bcbb5"/>
@@ -2113,6 +2120,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="REQF - Tablet Request - S">f1d1cc741b48751062e50ed2cd4bcb73</flow>
@@ -2122,10 +2130,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:20:04</sys_created_on>
         <sys_id>eed100b41b48751062e50ed2cd4bcbe6</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:56</sys_updated_on>
+        <sys_updated_on>2024-01-16 15:08:17</sys_updated_on>
         <ui_id>3d01b19d-83ba-4fdb-bd70-495b3a847ff5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=eed100b41b48751062e50ed2cd4bcbe6"/>
@@ -2199,7 +2207,8 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=f1d1cc741b48751062e50ed2cd4bcb73"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=f1d1cc741b48751062e50ed2cd4bcb73^sys_idNOT IN1ad100b41b48751062e50ed2cd4bcb66,9ed100b41b48751062e50ed2cd4bcb69,d6d100b41b48751062e50ed2cd4bcb55"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">8ac795de1b5525108c5143f3cc4bcbc0</block>
+        <attributes/>
+        <block display_value="">2e4cffc51b737d5062e50ed2cd4bcb58</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -2220,10 +2229,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:20:02</sys_created_on>
         <sys_id>1ad100b41b48751062e50ed2cd4bcb66</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:56</sys_updated_on>
+        <sys_updated_on>2024-01-16 15:08:17</sys_updated_on>
         <ui_id>b85d5c50-532c-4e0b-ba14-1867d53cab2f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2245,7 +2254,8 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=1ad100b41b48751062e50ed2cd4bcb66"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=1ad100b41b48751062e50ed2cd4bcb66"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">c6c795de1b5525108c5143f3cc4bcbc7</block>
+        <attributes/>
+        <block display_value="">2a4cffc51b737d5062e50ed2cd4bcb5f</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -2266,10 +2276,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:20:02</sys_created_on>
         <sys_id>9ed100b41b48751062e50ed2cd4bcb69</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:56</sys_updated_on>
+        <sys_updated_on>2024-01-16 15:08:17</sys_updated_on>
         <ui_id>edc7ec6b-a2d9-41f9-a857-2cc3e2852c25</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2291,7 +2301,8 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=9ed100b41b48751062e50ed2cd4bcb69"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=9ed100b41b48751062e50ed2cd4bcb69"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">cec795de1b5525108c5143f3cc4bcbb8</block>
+        <attributes/>
+        <block display_value="">e24cffc51b737d5062e50ed2cd4bcb45</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -2312,10 +2323,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-12 16:20:02</sys_created_on>
         <sys_id>d6d100b41b48751062e50ed2cd4bcb55</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-28 15:18:56</sys_updated_on>
+        <sys_updated_on>2024-01-16 15:08:17</sys_updated_on>
         <ui_id>455619ea-8902-4432-97d2-ccbdf226162b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2352,7 +2363,7 @@
         <sys_created_on>2023-07-12 16:20:02</sys_created_on>
         <sys_id>16d100b41b48751062e50ed2cd4bcb4e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Request Item</sys_name>
         <sys_package display_value="Cellular Device Ordering" source="ddd5ad831b3ba5d08c5143f3cc4bcb61">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
@@ -2375,7 +2386,7 @@
         <sys_created_on>2023-07-12 16:20:02</sys_created_on>
         <sys_id>ced100b41b48751062e50ed2cd4bcb39</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Cellular Device Ordering" source="ddd5ad831b3ba5d08c5143f3cc4bcb61">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
@@ -2391,6 +2402,25 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>93a180741b48751062e50ed2cd4bcbe0</sys_id>
         <latest_snapshot>f1d1cc741b48751062e50ed2cd4bcb73</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch9-hotfix2-06-07-2023_06-23-2023_1740.zip</compiler_build>
+        <compiler_build>glide-vancouver-07-06-2023__patch9-hotfix2-06-11-2024_06-14-2024_2108.zip</compiler_build>
     </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=93a180741b48751062e50ed2cd4bcbe0^sys_idNOT IN8bd140b41b48751062e50ed2cd4bcbb2"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"8bd140b41b48751062e50ed2cd4bcbb2","name":"plan","plan_signature":null}}</plan>
+        <plan_id>93a180741b48751062e50ed2cd4bcbe0</plan_id>
+        <snapshot>9a108d3587af82106b4c21b9cebb3542</snapshot>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-07-12 16:20:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8bd140b41b48751062e50ed2cd4bcbb2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-01-16 15:08:19</sys_updated_on>
+        <trigger display_value="">c3d140b41b48751062e50ed2cd4bcbb2</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=93a180741b48751062e50ed2cd4bcbe0"/>
 </record_update>

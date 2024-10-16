@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="Apple iPhone SE 2022 64GB">a055dbd81b0cf11062e50ed2cd4bcba2</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-07-11 18:27:02</sys_created_on>
+        <sys_id>7855571c1b0cf11062e50ed2cd4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Verizon Internet Business Getaway.SNC External</sys_name>
+        <sys_package display_value="Cellular Device Ordering" source="ddd5ad831b3ba5d08c5143f3cc4bcb61">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_7855571c1b0cf11062e50ed2cd4bcbe3</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-07-11 18:27:02</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_7855571c1b0cf11062e50ed2cd4bcbe3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Apple iPhone SE 2022 64GB">a055dbd81b0cf11062e50ed2cd4bcba2</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-07-11 18:27:02</sys_created_on>
+        <sys_id>7855571c1b0cf11062e50ed2cd4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Verizon Internet Business Getaway.SNC External</sys_name>
+        <sys_package display_value="Cellular Device Ordering" source="ddd5ad831b3ba5d08c5143f3cc4bcb61">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_7855571c1b0cf11062e50ed2cd4bcbe3</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-07-11 18:27:02</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+</record_update>]]></payload>
+        <payload_hash>-608733040</payload_hash>
+        <record_name>Copy of Verizon Internet Business Getaway.SNC External</record_name>
+        <reverted_from/>
+        <source>6072a6cd1b405e10c16ddb9ebd4bcb67</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-08-14 15:02:46</sys_created_on>
+        <sys_id>28822ecd1b405e10c16ddb9ebd4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1915169b0a50000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-08-14 15:02:46</sys_updated_on>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>24822ecd66405e104ed0427dba3782cd</update_guid>
+        <update_guid_history>24822ecd66405e104ed0427dba3782cd:0,28822ecde2405e10b521207d29625ccb:416185298</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-10-02 21:42:22</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>28977a394d4949ccb60dd013bac3e6a4</sys_id>
+        <sys_metadata>7855571c1b0cf11062e50ed2cd4bcbe3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Verizon Internet Business Getaway.SNC External</sys_name>
+        <sys_package display_value="Cellular Device Ordering" source="ddd5ad831b3ba5d08c5143f3cc4bcb61">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
+        <sys_scope_delete display_value="">19419188852c444a8acdd9a965265dc4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_7855571c1b0cf11062e50ed2cd4bcbe3</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_7855571c1b0cf11062e50ed2cd4bcbe3">28822ecd1b405e10c16ddb9ebd4bcbcd</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-10-02 21:42:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

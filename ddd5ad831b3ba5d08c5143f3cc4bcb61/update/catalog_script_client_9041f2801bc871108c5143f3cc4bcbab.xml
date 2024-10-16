@@ -17,6 +17,7 @@
         <messages/>
         <name>Hide Qty and Phone Number</name>
         <order>0</order>
+        <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
 	var displayValue = (newValue == "Yes") ? "none" : "";
 	var visible = (newValue == "Yes");
@@ -47,6 +48,7 @@
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
         <variable_set display_value="Device information">138ba1cb1b3ba5d08c5143f3cc4bcb45</variable_set>
         <view/>
     </catalog_script_client>

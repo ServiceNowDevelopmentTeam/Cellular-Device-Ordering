@@ -17,6 +17,7 @@
         <messages/>
         <name>Hide color if empty</name>
         <order>10</order>
+        <published_ref/>
         <script><![CDATA[function onLoad() {
     var gr = new GlideRecord('sys_choice');
     gr.addQuery('name', 'sc_cat_item');
@@ -64,6 +65,7 @@ function checkRecordCount(queryGR) {
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
         <variable_set display_value="Device information">138ba1cb1b3ba5d08c5143f3cc4bcb45</variable_set>
         <view/>
     </catalog_script_client>

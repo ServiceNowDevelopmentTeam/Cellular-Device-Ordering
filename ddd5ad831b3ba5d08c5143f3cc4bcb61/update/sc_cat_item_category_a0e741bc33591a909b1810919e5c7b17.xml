@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Apple iPhone 13 128GB">53b5d31c1b0cf11062e50ed2cd4bcb5d</sc_cat_item>
+        <sc_category display_value="Non-procurement Hardware">d8c0497433591a909b1810919e5c7b02</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-10-14 17:06:50</sys_created_on>
+        <sys_id>a0e741bc33591a909b1810919e5c7b17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Non-procurement Hardware.Apple iPhone 13 128GB</sys_name>
+        <sys_package display_value="Cellular Device Ordering" source="ddd5ad831b3ba5d08c5143f3cc4bcb61">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
+        <sys_update_name>sc_cat_item_category_a0e741bc33591a909b1810919e5c7b17</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-10-14 17:06:50</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

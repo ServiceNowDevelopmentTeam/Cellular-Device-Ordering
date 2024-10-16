@@ -4,6 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
+        <attributes/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
@@ -29,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0b88d3621b08715062e50ed2cd4bcb6a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>PROF - Get Cellular GL - S</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cellular Device Ordering" source="ddd5ad831b3ba5d08c5143f3cc4bcb61">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_package>
@@ -37,7 +38,7 @@
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
         <sys_update_name>sys_hub_flow_0b88d3621b08715062e50ed2cd4bcb6a</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-18 18:29:43</sys_updated_on>
+        <sys_updated_on>2024-10-02 21:42:26</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=0b88d3621b08715062e50ed2cd4bcb6a"/>
@@ -142,6 +143,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7b0917e21b08715062e50ed2cd4bcb07"/>
     <sys_hub_flow_output action="delete_multiple" query="model=0b88d3621b08715062e50ed2cd4bcb6a^sys_idNOT IN330917e21b08715062e50ed2cd4bcb10"/>
     <sys_hub_flow_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -226,11 +228,13 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=330917e21b08715062e50ed2cd4bcb10"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=0b88d3621b08715062e50ed2cd4bcb6a"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=0b88d3621b08715062e50ed2cd4bcb6a"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=0b88d3621b08715062e50ed2cd4bcb6a"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=0b88d3621b08715062e50ed2cd4bcb6a^sys_idNOT INb70917e21b08715062e50ed2cd4bcb30,fb0917e21b08715062e50ed2cd4bcb3b"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">bb0917e21b08715062e50ed2cd4bcb2f</block>
         <comment/>
         <connected_to/>
@@ -319,42 +323,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=b70917e21b08715062e50ed2cd4bcb30"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>answer_table</field>
-        <id>b70917e21b08715062e50ed2cd4bcb30</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2023-07-18 18:29:41</sys_created_on>
-        <sys_id>f70917e21b08715062e50ed2cd4bcb38</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-18 18:29:41</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>decision_label</field>
-        <id>b70917e21b08715062e50ed2cd4bcb30</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2023-07-18 18:29:41</sys_created_on>
-        <sys_id>730917e21b08715062e50ed2cd4bcb39</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-18 18:29:41</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>decision_table</field>
-        <id>b70917e21b08715062e50ed2cd4bcb30</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2023-07-18 18:29:41</sys_created_on>
-        <sys_id>bf0917e21b08715062e50ed2cd4bcb38</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-18 18:29:41</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>u_company</field>
         <id>b70917e21b08715062e50ed2cd4bcb30</id>
         <sys_created_by>Terry.Lillo</sys_created_by>
@@ -371,6 +339,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b70917e21b08715062e50ed2cd4bcb30"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=b70917e21b08715062e50ed2cd4bcb30"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">370917e21b08715062e50ed2cd4bcb3b</block>
         <comment/>
         <connected_to/>
@@ -432,11 +401,11 @@
         <sys_created_on>2023-07-18 18:29:41</sys_created_on>
         <sys_id>3b0917e21b08715062e50ed2cd4bcb0d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Company</sys_name>
         <sys_package display_value="Cellular Device Ordering" source="ddd5ad831b3ba5d08c5143f3cc4bcb61">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_0b88d3621b08715062e50ed2cd4bcb6a_company_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-07-18 18:29:41</sys_updated_on>
         <url/>
@@ -457,39 +426,23 @@
         <sys_created_on>2023-07-18 18:29:41</sys_created_on>
         <sys_id>b70917e21b08715062e50ed2cd4bcb2c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>GL</sys_name>
         <sys_package display_value="Cellular Device Ordering" source="ddd5ad831b3ba5d08c5143f3cc4bcb61">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_0b88d3621b08715062e50ed2cd4bcb6a_gl_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-07-18 18:29:41</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_0b88d3621b08715062e50ed2cd4bcb6a"/>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=0b88d3621b08715062e50ed2cd4bcb6a"/>
-    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=0b88d3621b08715062e50ed2cd4bcb6a^sys_idNOT IN141917e21b08715062e50ed2cd4bcbce"/>
-    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"141917e21b08715062e50ed2cd4bcbce","name":"plan","plan_signature":null}}</plan>
-        <plan_id display_value="PROF - Get Cellular GL - S">0b88d3621b08715062e50ed2cd4bcb6a</plan_id>
-        <snapshot>19a067621b48715062e50ed2cd4bcbe0</snapshot>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2023-07-18 18:29:43</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>141917e21b08715062e50ed2cd4bcbce</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_overrides/>
-        <sys_scope/>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-18 18:29:43</sys_updated_on>
-    </sys_flow_subflow_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
         <active>true</active>
         <annotation/>
+        <attributes/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
@@ -626,6 +579,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=841917e21b08715062e50ed2cd4bcb6e"/>
     <sys_hub_flow_output action="delete_multiple" query="model=cc1917e21b08715062e50ed2cd4bcb6b^sys_idNOT INc01917e21b08715062e50ed2cd4bcb9b"/>
     <sys_hub_flow_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -710,11 +664,13 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c01917e21b08715062e50ed2cd4bcb9b"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=cc1917e21b08715062e50ed2cd4bcb6b"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=cc1917e21b08715062e50ed2cd4bcb6b"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=cc1917e21b08715062e50ed2cd4bcb6b"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=cc1917e21b08715062e50ed2cd4bcb6b^sys_idNOT IN1c1917e21b08715062e50ed2cd4bcbaf,d01917e21b08715062e50ed2cd4bcba6"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">370917e21b08715062e50ed2cd4bcb3b</block>
         <comment/>
         <connected_to/>
@@ -761,6 +717,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=1c1917e21b08715062e50ed2cd4bcbaf"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=1c1917e21b08715062e50ed2cd4bcbaf"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">bb0917e21b08715062e50ed2cd4bcb2f</block>
         <comment/>
         <connected_to/>
@@ -849,42 +806,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d01917e21b08715062e50ed2cd4bcba6"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>answer_table</field>
-        <id>d01917e21b08715062e50ed2cd4bcba6</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2023-07-18 18:29:42</sys_created_on>
-        <sys_id>1c1917e21b08715062e50ed2cd4bcbad</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-18 18:29:42</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>decision_label</field>
-        <id>d01917e21b08715062e50ed2cd4bcba6</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2023-07-18 18:29:43</sys_created_on>
-        <sys_id>901917e21b08715062e50ed2cd4bcbae</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-18 18:29:43</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>decision_table</field>
-        <id>d01917e21b08715062e50ed2cd4bcba6</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2023-07-18 18:29:43</sys_created_on>
-        <sys_id>dc1917e21b08715062e50ed2cd4bcbad</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-18 18:29:43</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>u_company</field>
         <id>d01917e21b08715062e50ed2cd4bcba6</id>
         <sys_created_by>Terry.Lillo</sys_created_by>
@@ -916,11 +837,11 @@
         <sys_created_on>2023-07-18 18:29:42</sys_created_on>
         <sys_id>8c1917e21b08715062e50ed2cd4bcb89</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Company</sys_name>
         <sys_package display_value="Cellular Device Ordering" source="ddd5ad831b3ba5d08c5143f3cc4bcb61">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_cc1917e21b08715062e50ed2cd4bcb6b_company_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-07-18 18:29:42</sys_updated_on>
         <url/>
@@ -941,11 +862,11 @@
         <sys_created_on>2023-07-18 18:29:42</sys_created_on>
         <sys_id>dc1917e21b08715062e50ed2cd4bcb9f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>GL</sys_name>
         <sys_package display_value="Cellular Device Ordering" source="ddd5ad831b3ba5d08c5143f3cc4bcb61">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cellular Device Ordering">ddd5ad831b3ba5d08c5143f3cc4bcb61</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_cc1917e21b08715062e50ed2cd4bcb6b_gl_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-07-18 18:29:42</sys_updated_on>
         <url/>
@@ -955,6 +876,23 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>0b88d3621b08715062e50ed2cd4bcb6a</sys_id>
         <latest_snapshot>cc1917e21b08715062e50ed2cd4bcb6b</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch9-hotfix2-06-07-2023_06-23-2023_1740.zip</compiler_build>
+        <compiler_build>glide-vancouver-07-06-2023__patch10-hotfix2-08-01-2024_08-12-2024_1557.zip</compiler_build>
     </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=0b88d3621b08715062e50ed2cd4bcb6a"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=0b88d3621b08715062e50ed2cd4bcb6a^sys_idNOT IN141917e21b08715062e50ed2cd4bcbce"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"141917e21b08715062e50ed2cd4bcbce","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="PROF - Get Cellular GL - S">0b88d3621b08715062e50ed2cd4bcb6a</plan_id>
+        <snapshot>f106603833d51a909b1810919e5c7bca</snapshot>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-07-18 18:29:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>141917e21b08715062e50ed2cd4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-07-18 18:29:43</sys_updated_on>
+    </sys_flow_subflow_plan>
 </record_update>
